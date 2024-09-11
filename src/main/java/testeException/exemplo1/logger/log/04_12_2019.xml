@@ -1,0 +1,91 @@
+<record>
+  <date>2019-12-04T09:57:46</date>
+  <millis>1575460666669</millis>
+  <sequence>0</sequence>
+  <logger>MYLOG</logger>
+  <level>SEVERE</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 1 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestFormatter</class>
+      <method>main</method>
+      <line>12</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2019-12-04T09:57:46</date>
+  <millis>1575460666778</millis>
+  <sequence>1</sequence>
+  <logger>MYLOG</logger>
+  <level>INFO</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 6 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestFormatter</class>
+      <method>main</method>
+      <line>17</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2019-12-04T09:57:46</date>
+  <millis>1575460666778</millis>
+  <sequence>2</sequence>
+  <logger>MYLOG</logger>
+  <level>WARNING</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 7 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestFormatter</class>
+      <method>main</method>
+      <line>18</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2019-12-04T10:11:11</date>
+  <millis>1575461471752</millis>
+  <sequence>0</sequence>
+  <logger>MYLOG</logger>
+  <level>SEVERE</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 1 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1_1.ThreadExceptionHandler</class>
+      <method>uncaughtException</method>
+      <line>8</line>
+    </frame>
+    <frame>
+      <class>java.lang.ThreadGroup</class>
+      <method>uncaughtException</method>
+      <line>1057</line>
+    </frame>
+    <frame>
+      <class>java.lang.ThreadGroup</class>
+      <method>uncaughtException</method>
+      <line>1052</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>dispatchUncaughtException</method>
+      <line>1959</line>
+    </frame>
+  </exception>
+</record>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-03T16:05:06</date>
+  <millis>1575396306621</millis>
+  <sequence>0</sequence>
+  <logger>MYLOG</logger>
+  <level>SEVERE</level>
+  <class>testeException.exemplo1.logger.log.LogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Didn't do it.</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestFormatter</class>
+      <method>main</method>
+      <line>10</line>
+    </frame>
+  </exception>
+</record>
+</log>

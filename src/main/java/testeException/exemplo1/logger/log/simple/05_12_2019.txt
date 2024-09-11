@@ -1,0 +1,15 @@
+dez 05, 2019 10:45:34 AM testeException.exemplo1.logger.MyLogToFile log
+GRAVE: -------- Erro 1 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1.MainTestLogToFile.main(MainTestLogToFile.java:13)
+
+dez 05, 2019 10:45:34 AM testeException.exemplo1.logger.MyLogToFile log
+INFORMAÇÕES: -------- Erro 6 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1.MainTestLogToFile.main(MainTestLogToFile.java:18)
+
+dez 05, 2019 10:45:34 AM testeException.exemplo1.logger.MyLogToFile log
+ADVERTÊNCIA: -------- Erro 7 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1.MainTestLogToFile.main(MainTestLogToFile.java:19)
+

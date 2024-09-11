@@ -1,0 +1,57 @@
+<record>
+  <date>2019-12-05T10:45:34</date>
+  <millis>1575549934599</millis>
+  <sequence>0</sequence>
+  <logger>MYLOG</logger>
+  <level>SEVERE</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 1 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestLogToFile</class>
+      <method>main</method>
+      <line>13</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2019-12-05T10:45:34</date>
+  <millis>1575549934711</millis>
+  <sequence>1</sequence>
+  <logger>MYLOG</logger>
+  <level>INFO</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 6 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestLogToFile</class>
+      <method>main</method>
+      <line>18</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2019-12-05T10:45:34</date>
+  <millis>1575549934721</millis>
+  <sequence>2</sequence>
+  <logger>MYLOG</logger>
+  <level>WARNING</level>
+  <class>testeException.exemplo1.logger.MyLogToFile</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------- Erro 7 ----------</message>
+  <exception>
+    <message>java.lang.ArithmeticException</message>
+    <frame>
+      <class>testeException.exemplo1.MainTestLogToFile</class>
+      <method>main</method>
+      <line>19</line>
+    </frame>
+  </exception>
+</record>

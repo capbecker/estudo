@@ -1,0 +1,23 @@
+dez 04, 2019 9:57:46 AM testeException.exemplo1.logger.LogToFile log
+GRAVE: -------- Erro 1 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1.Main.main(Main.java:12)
+
+dez 04, 2019 9:57:46 AM testeException.exemplo1.logger.LogToFile log
+INFORMAÇÕES: -------- Erro 6 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1.Main.main(Main.java:17)
+
+dez 04, 2019 9:57:46 AM testeException.exemplo1.logger.LogToFile log
+ADVERTÊNCIA: -------- Erro 7 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1.Main.main(Main.java:18)
+
+dez 04, 2019 10:11:11 AM testeException.exemplo1.logger.LogToFile log
+GRAVE: -------- Erro 1 ----------
+java.lang.ArithmeticException
+	at testeException.exemplo1_1.ExceptionHandler.uncaughtException(ExceptionHandler.java:8)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1057)
+	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1052)
+	at java.lang.Thread.dispatchUncaughtException(Thread.java:1959)
+
